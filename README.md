@@ -16,9 +16,6 @@ Rename Method: rename CreateTimeFromTimeStamp to create_time_from_timestamp.
 
 Extract Method and Move Method: Extract into is_valid_time()
 
-
-
-
 ## `game_framework/gamelib.py`
 
 Look for refactorings in the class `GameApp`.
@@ -27,6 +24,10 @@ Look for refactorings in the class `GameApp`.
 
 * Encapsulate a collection - provide behavior that subclasses of GameApp need instead of requiring them to manipulate a collection that belongs to the GameApp class.
   - Hint: `elements`
+
+Refactor - replace side effect with return value.
+Refactor - add parameters instead of accessing attributes.
+Replace string literal - in canvas.grid(stick='news') to canvas.grid(stick=tk.NSEW)
 
 ## `recipe/recipe.py` and `recipe/main.py`
 
