@@ -13,6 +13,7 @@ Each subdirectory contains some code that needs refactoring.
 Refactor timestamp.py.  2 or 3 refactorings are possible.
 
 Rename Method: rename CreateTimeFromTimeStamp to create_time_from_timestamp.
+
 Extract Method and Move Method: Extract into is_valid_time()
 
 
